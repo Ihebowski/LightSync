@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lightsync/views/location_view.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -15,8 +16,12 @@ class _HomePageState extends State<HomePage> {
         title: const Text("LightSync"),
         centerTitle: true,
       ),
-      body: Column(
-        children: [],
+      body: const Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          LocationView(),
+        ],
       ),
     );
   }

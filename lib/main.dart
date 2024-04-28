@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lightsync/views/home.dart';
+import 'package:lightsync/views/home_page.dart';
 
 void main() {
   runApp(const MyApp());
